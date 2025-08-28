@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 \# 🌐 Portfolio - Issam Oubenazha
 
 
@@ -58,3 +59,7 @@ It showcases my profile, skills, services, projects, and contact details.
 
 
 
+=======
+# portfolio-issam
+Personal portfolio website built with HTML and CSS to showcase my skills, projects, and contact information
+>>>>>>> 431b847cc72c25add8329b7046bf794a626682dc
