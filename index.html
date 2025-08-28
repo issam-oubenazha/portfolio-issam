@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="font-end, back-end, web devoloper, coyo">
+    <meta name="auther" content="iSSAM Oubenazha">
+    <meta name="description" content="Hi, my name is iSSAM Oubenazha. I'm a Front-end developer.Specialize 
+             in the Html5, css and javaScript stack with decent knowledge in other technologies in the field as well.">
+
+    <title>Don</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+</head>
+
+<body>
+    <!-- navigation bar start -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span>D</span><span>ON</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainnav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#Aboutme">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#Project">Project</a>
+                    </li>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#Contact">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- navigation bar  end-->
+
+
+    <!-- Hero  start-->
+    <div class="container" id="hero" data-aos="flip-up">
+        <div class="m-auto " id="hr">
+            <p class="text-white fw-bold text-center pt-2 dv1 ">Welcome i'm Issam</p>
+            <p class="text-primary fw-bold text-center dv">Front-end developper</p>
+            <p class="text-white fw-bold text-center dv1">Website without visitors is like a ship lost in the horizon
+            </p>
+            <p class="fw-bold text-center dv2 ">Let's work <span> <i class="fas fa-arrow-right"></i> </span>
+            </p>
+            <div class="icons">
+                <a href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Hero  end-->
+
+    <!-- Description start -->
+   
+    <section id="Aboutme" class="about" data-aos="fade-left">
+        <div class="container w-100">
+            <div class="container-fluid">
+                <h2 class="h2 fw-bold pb-3">About <span class="text-primary">Me</span></h2>
+                <p class="fs-6 fw-bold text-dark">
+                    Hi, i'm Oubenazha issam. I'm a Front-end developer. Specialize
+                    in Html5 css and javaScript with decent knowledge in other technologie
+                    in the field as well. For an in-depth insight into my skills and qualification .
+
+                </p>
+                <!-- this part is for read more -->
+                <div class="collapse " id="collapseExample">
+                    <div class="card card-body ">
+                        <p class="fs-6 fw-bold text-dark">
+                            As I said before, my name is issam. I'm a 19 years old young man from Morocco.
+                            I first found out about this programming field last year and liked it so much,
+                            so I decided that is what I'm gonna do. After doing a ton of research on the internet,
+                            I did find that it's a large domain, and it's possible to get into this industry without
+                            a degree by being self-taught. After that, I picked web development because it's kind
+                            of holding the stick from the middle, and you can transact to related fields later.
+                            So I departed on this journey.
+                            <br>
+                            I used a wide collection of resources in my learning,
+                            from <a class="pe-auto" target="_blank"
+                                href="https://www.freecodecamp.org/">freeCodeCamp</a>
+                            and <a class="pe-auto" target="_blank" href="https://developer.mozilla.org/">MDN</a> to
+                            YouTube
+                            (I watched so many videos from these channels: Traversy media, Web Dev Simplified, Fireship,
+                            el zero web school , learn in hours,.. and so many others).
+                            solved so many algorithmic challenges over HackerRank,
+                            and build so many projects. I devoted all of my time and effort to this.
+                            I even moved out of my house and city and lived by myself so I can focus on my new career.
+                            It was a rough journey, full of hard times and bugs.
+                            But I didn't give up and I won't do. And here I'm,
+                            after several months of constant battle. That was a quick glimpse into my journey,
+                            hope you like it.
+                        </p>
+                    </div>
+                </div>
+                <!-- btn onclick display span of read more -->
+                <p>
+                    <a id="read-more-btn" onclick=" readMoreScript()" class="btn btn-outline-danger mt-3"
+                        data-bs-toggle="collapse" href="#collapseExample">
+                        Read More...
+                    </a>
+                </p>
+
+            </div>
+            <!-- this is the  box of the imag -->
+            <div class="box-img-about">
+                <img class="" src="images/avataaars.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- description end  -->
+
+    <!-- progress start -->
+
+    <section id="Skills" class="container bg-dark progress_bar" data-aos="flip-up">
+
+        <div class="container">
+            <h2 class="text-primary pb-4 fw-bold fs-1">Skills</h2>
+            <h4 class="text-white pb-3 "> Programming languages & tools</h4>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <div class="progress_icon"><i style="color:  rgb(200, 88, 8);" class="fab fa-html5"></i>
+                            </div>
+                            <h3>HTML <span>%</span><span class="counter">95</span></h3>
+                            <div class="bar"><span class="html"></span></div>
+                        </li>
+
+                        <li data-aos="fade-right">
+                            <div class="progress_icon"><i style="color:  rgb(64, 175, 0);" class="fab fa-css3"></i>
+                            </div>
+                            <h3>CSS <span>%</span><span class="counter">90</span></h3>
+                            <div class="bar"><span class="css"></span></div>
+                        </li>
+
+                        <li data-aos="fade-left">
+                            <div class="progress_icon"><i style="color:  rgb(255, 251, 0);" class="fab fa-js"></i></div>
+                            <h3>javascript <span>%</span><span class="counter">80</span></h3>
+                            <div class="bar"><span class="js"></span></div>
+                        </li>
+
+                        <li data-aos="fade-down">
+                            <div class="progress_icon"><i style="color:  rgb(255, 0, 0);" class="fab fa-bootstrap"></i>
+                            </div>
+                            <h3>Bootstrap <span>%</span><span class="counter">80</span></h3>
+                            <div class="bar"><span class="Bootstrap"></span></div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul>
+                        <li data-aos="fade-up">
+                            <div class="progress_icon"><i style="color: rgb(0, 107, 89);" class="fab fa-php"></i></div>
+                            <h3>PHP <span>%</span><span class="counter">88</span></h3>
+                            <div class="bar"><span class="php"></span></div>
+                        </li>
+
+                        <li data-aos="fade-right">
+                            <div class="progress_icon"><i style="color:  rgb(105, 10, 143);" class="fab fa-react"></i>
+                            </div>
+                            <h3>REACT <span>%</span><span class="counter">5</span></h3>
+                            <div class="bar"><span class="react"></span></div>
+                        </li>
+
+                        <li data-aos="fade-left">
+                            <div class="progress_icon"><i style="color:  rgb(39, 65, 179); " class="fab fa-python"></i>
+                            </div>
+                            <h3>PYTHON <span>%</span><span class="counter">80</span></h3>
+                            <div class="bar"><span class="python"></span></div>
+                        </li>
+
+                        <li data-aos="fade-down">
+                            <div class="progress_icon"><i style="color:  white; " class="fab fa-microsoft"></i></div>
+                            <h3>MICROSOFT OFFICE <span>%</span><span class="counter">75</span></h3>
+                            <div class="bar"><span class="microsoft"></span></div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- progress end -->
+
+    <!-- Services start -->
+    <section class="container" id="services" data-aos="fade-down">
+        <h1 class="title text-center my-3 fw-bold">Se<span>rvic</span>es </h1>
+        <div class="ser">
+            <div class="services" data-aos="fade-right">
+                <i class="fas fa-code"></i>
+                <h3>Front-End Development</h3>
+                <h6>Creating responsive and interactive user interfaces with modern frameworks like React, Vue, and Angular.</h6>
+            </div>
+            <div class="services" data-aos="fade-left">
+                <i class="fas fa-server"></i>
+                <h3>Back-End Development</h3>
+                <h6>Building robust server-side applications with Node.js, Express, Django, or Laravel for optimal performance.</h6>
+            </div>
+            <div class="services" data-aos="fade-up">
+                <i class="fas fa-database"></i>
+                <h3>Database Design</h3>
+                <h6>Designing and optimizing SQL and NoSQL databases (MongoDB, MySQL, PostgreSQL) with efficient data structures.</h6>
+            </div>
+            <div class="services" data-aos="fade-down">
+                <i class="fas fa-cloud"></i>
+                <h3>Cloud Services</h3>
+                <h6>Deploying and managing applications on AWS, Azure, or Google Cloud with scalable infrastructure solutions.</h6>
+            </div>
+
+            <div class="services" data-aos="fade-right">
+                <i class="fas fa-cogs"></i>
+                <h3>API Development</h3>
+                <h6>Creating RESTful and GraphQL APIs that connect your front-end interfaces with back-end services seamlessly.</h6>
+            </div>
+            <div class="services" data-aos="fade-left">
+                <i class="fas fa-lock"></i>
+                <h3>Security Implementation</h3>
+                <h6>Implementing authentication, authorization, and data protection measures to keep your applications secure.</h6>
+            </div>
+
+            <div class="services" data-aos="fade-up">
+                <i class="fas fa-tasks"></i>
+                <h3>DevOps Integration</h3>
+                <h6>Setting up CI/CD pipelines, Docker containers, and Kubernetes for automated deployment workflows.</h6>
+            </div>
+            <div class="services" data-aos="fade-down">
+                <i class="fas fa-mobile-alt"></i>
+                <h3>Progressive Web Apps</h3>
+                <h6>Building cross-platform applications that work online and offline with native-like functionality.</h6>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services end -->
+
+
+    <!-- contact form start -->
+
+    <div class="container contact" id="Contact">
+        <h2 class="text-center mb-2">Contact Me</h2>
+        <form class="contact-form">
+            <p>Username</p>
+            <input 
+                class="form-control" 
+                type="text" 
+                name="username" 
+                placeholder="Type your username">
+                <i class="fa fa-user fa-fw"></i>
+
+            <p>Email</p>
+            <input 
+                class="form-control" 
+                type="email" 
+                name="username" 
+                placeholder="Type your email">
+                <i class="fa fa-envelope fa-fw"></i>
+
+            <p>phone</p>
+            <input 
+                class="form-control" 
+                type="text" 
+                name="username" 
+                placeholder="Type your cell phone">
+                <i class="fa fa-phone fa-fw"></i>
+            
+            <p>message</p>
+            <textarea 
+                class="form-control"
+                value="">
+            </textarea>
+            
+
+            <input
+                class="btn btn-primary" 
+                type="submit"
+                value="Send message">
+                <i class="fas fa-paper-plane fa-fw send-icon"></i>
+                
+        </form>
+        
+    </div>
+
+    <!-- contact form end -->
+
+
+    <!-- card start -->
+
+    
+    
+
+    <section class="cardd container m-auto row text-center">
+        <div class="cardd-icon col-md-6 col-lg-3 col-12" data-aos="fade-down"><i class="fas fa-location-arrow"></i><p>Adress</p> <p>imouzzer kander ,  Morocco</p></div>
+        <div class="cardd-icon col-md-6 col-lg-3 col-12" data-aos="fade-down"><i class="fas fa-phone-alt"></i><p>Phone</p> <p>+212 69</p></div>
+        <div class="cardd-icon col-md-6 col-lg-3 col-12" data-aos="fade-down"><i class="fa fa-envelope"></i><p>Email</p><a id="em" href="mailto:issamoubenazha@gmail.com">issamoubenazha@gmail.com</a></div>
+    </section>
+
+    <!-- card end -->
+    
+<!-- footer start  -->
+
+<footer>
+    <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+        <li>
+            <a href="">
+                <i class="fab fa-instagram"></i>            
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="fab fa-github"></i>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </li>
+    </ul>
+    <ul class="menu">
+        <li>
+            <a href="">home</a>
+        </li>
+        <li>
+            <a href="">about</a>
+        </li>
+        <li>
+            <a href="">services</a>
+        </li>
+        <li>
+            <a href="">project</a>
+        </li>
+        <li>
+            <a href="">contact us </a>
+        </li>
+    </ul>
+    <p>&copy;2024 oubenazha issam | All Rights Reserved</p>
+</footer>
+<!-- footer end -->
+
+
+    <a href="#top" class="top"> <i class="fas fa-arrow-up"></i></a>
+
+    <!-- Scripts -->
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
