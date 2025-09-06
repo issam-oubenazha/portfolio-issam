@@ -34,8 +34,10 @@ It showcases my profile, skills, services, projects, and contact details.
 
 
 \## 📷 Preview
+<img width="1920" height="4718" alt="screencapture-file-D-2eme-anne-les-project-portfolio-index-html-2025-09-06-14_48_46" src="https://github.com/user-attachments/assets/d0ebee92-60b5-404b-9bcc-a1f58827b1c3" />
 
-!\[Portfolio Screenshot](screenshot.png)
+
+
 
 
 
@@ -43,11 +45,11 @@ It showcases my profile, skills, services, projects, and contact details.
 
 \- 📧 Email: issamoubenazha@gmail.com  
 
-\- 📍 Location: Imouzzer Kandar, Morocco  
+\- 📍 Location: Immouzer Kandar, Morocco  
 
 \- 🔗 LinkedIn: https://www.linkedin.com/in/issam-oubenazha
 
-\- 🐙 GitHub: \[Your GitHub link]  
+\- 🐙 GitHub: https://github.com/issam-oubenazha
 
 
 
@@ -55,7 +57,7 @@ It showcases my profile, skills, services, projects, and contact details.
 
 
 
-© 2024 Issam Oubenazha | All rights reserved
+
 
 
 
