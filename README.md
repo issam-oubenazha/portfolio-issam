@@ -45,7 +45,7 @@ It showcases my profile, skills, services, projects, and contact details.
 
 \- 📍 Location: Imouzzer Kandar, Morocco  
 
-\- 🔗 LinkedIn: \[Your LinkedIn link]  
+\- 🔗 LinkedIn: https://www.linkedin.com/in/issam-oubenazha
 
 \- 🐙 GitHub: \[Your GitHub link]  
 
